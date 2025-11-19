@@ -9,7 +9,7 @@
     z-index: 9;
     width: 1920px;
     height: 180px;
-    margin-top: 81px;
+    margin-top: 251px;
 }
 
 .logo {
@@ -27,6 +27,7 @@
     max-height: 24px;
     margin-left: 642px;
     position: relative;
+    padding-top: 45px;
 }
 
 a {
@@ -59,7 +60,7 @@ body{
 }
 
 .curse {
-    margin-top: 270px;
+    margin-top: 100px;
     margin-left: 312px;
     width: 920px;
     height: 180px;
@@ -78,11 +79,6 @@ body{
     width: 110px;
     height: 110px;
     background-color: rgba(18, 18, 18, 1);
-    color: rgb(255, 255, 255);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
     z-index: 9;
 }
 
@@ -95,6 +91,8 @@ body{
     line-height: 140%;
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
 }
 
 .word {
@@ -105,6 +103,7 @@ body{
     margin: auto;
     margin-top: -35px;
     margin-left: 27px;
+    color: grey;
 }
 
 .word1 {
@@ -115,6 +114,7 @@ body{
     margin: auto;
     margin-top: -35px;
     margin-left: 32px;
+    color: grey;
 }
 
 .ordercourse {
@@ -141,4 +141,43 @@ body{
     justify-content: space-between;
     max-width: 250px;
     max-height: 60px;
+}
+.stonk {
+    display: flex;
+    justify-content: space-between;
+    max-width: 270px;
+    margin-top: -50px ;
+    margin-left: 894px;
+}
+
+.stonks {
+    color: grey;
+}
+
+.stonksn {
+    color: white;
+}
+.money_stripe {
+    background-color: rgba(223, 89, 80, 1);
+    height: 6px;
+    width: 440px;
+    margin-left: 894px;
+    margin-top: -10px;
+}
+
+.money_stripe1 {
+    background-color: white;
+    height: 6px;
+    width: 314px;
+    margin-left: 1334px;
+    margin-top: -6px;
+}
+
+.stonksm {
+    width: 754px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 894px;
+    margin-top: -10px;
 }
